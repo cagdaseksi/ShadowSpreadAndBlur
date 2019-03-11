@@ -16,10 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // 1. way
-        myView.layer.applySketchShadow()
+        // 1.
+        //myView.layer.applySketchShadow()
         
-        // 2. way
+        //2.
         myView.layer.applySketchShadow(
             color: .black,
             alpha: 0.5,
@@ -27,7 +27,6 @@ class ViewController: UIViewController {
             y: 0,
             blur: 4,
             spread: 0)
-
     }
 
 }
